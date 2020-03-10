@@ -33,21 +33,22 @@ requirements:
     - {{posix}}zip               # [win]
   host:
     - r-base
-    - r-matrix
+    - r-lattice
+    - r-matrix >=1.2
     - r-rspectra
-    - r-rcpp
-    - r-rcpparmadillo
+    - r-rcpp >=0.12.12
+    - r-rcpparmadillo >=0.7.600.1.0
     - r-rcppparallel
     - r-snowballc
-    - r-data.table
+    - r-data.table >=1.9.6
     - r-extrafont
     - r-fastmatch
-    - r-ggplot2
+    - r-ggplot2 >=2.2.0
     - r-ggrepel
     - r-lubridate
     - r-magrittr
     - r-network
-    - r-proxyc
+    - r-proxyc >=0.1.4
     - r-sna
     - r-spacyr
     - r-stopwords
@@ -57,21 +58,22 @@ requirements:
   run:
     - r-base
     - {{native}}gcc-libs         # [win]
-    - r-matrix
+    - r-matrix >=1.2
+    - r-lattice
     - r-rspectra
-    - r-rcpp
-    - r-rcpparmadillo
+    - r-rcpp >=0.12.12
+    - r-rcpparmadillo >=0.7.600.1.0
     - r-rcppparallel
     - r-snowballc
-    - r-data.table
+    - r-data.table >=1.9.6
     - r-extrafont
     - r-fastmatch
-    - r-ggplot2
+    - r-ggplot2 >=2.2.0
     - r-ggrepel
     - r-lubridate
     - r-magrittr
     - r-network
-    - r-proxyc
+    - r-proxyc >=0.1.4
     - r-sna
     - r-spacyr
     - r-stopwords
