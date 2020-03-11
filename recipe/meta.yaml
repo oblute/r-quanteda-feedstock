@@ -1,4 +1,4 @@
-{% set version = "2.0.0" %}
+gt{% set version = "2.0.0" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -36,50 +36,50 @@ requirements:
     - r-matrix >=1.2             # [not win]
     # - r-rspectra
     - r-rcpp >=0.12.12           # [not win]
-    - r-rcpparmadillo >=0.7.600.1.0   # [not win]
-    - r-rcppparallel             # [not win]
-    - r-snowballc                # [not win]
+    - r-rcpparmadillo >=0.7.600.1.0
+    - r-rcppparallel
+    - r-snowballc
     - r-data.table >=1.9.6       # [not win]
-    - r-extrafont                # [not win]
-    - r-fastmatch                 # [not win]
-    - r-ggplot2 >=2.2.0           # [not win]
-    - r-ggrepel                   # [not win]
+    - r-extrafont
+    - r-fastmatch
+    - r-ggplot2 >=2.2.0
+    - r-ggrepel
     - r-jsonlite                  # [not win]
     # - r-lubridate
-    - r-magrittr                  # [not win]
-    - r-network                   # [not win]
-    - r-proxyc >=0.1.4            # [not win]
-    - r-sna                       # [not win]
+    - r-magrittr
+    - r-network
+    - r-proxyc >=0.1.4
+    - r-sna
     - r-spacyr
-    - r-stopwords                 # [not win]
-    - r-stringi                   # [not win]
-    - r-xml2                      # [not win]
-    - r-yaml                      # [not win]
+    - r-stopwords
+    - r-stringi
+    - r-xml2
+    - r-yaml
   run:
     - r-base
     - {{native}}gcc-libs         # [win]
-    - r-matrix >=1.2
+    - r-matrix >=1.2            # [not win]
     # - r-rspectra
     - r-rcpp >=0.12.12           # [not win]
-    - r-rcpparmadillo >=0.7.600.1.0   # [not win]
-    - r-rcppparallel             # [not win]
-    - r-snowballc                # [not win]
+    - r-rcpparmadillo >=0.7.600.1.0  
+    - r-rcppparallel
+    - r-snowballc
     - r-data.table >=1.9.6       # [not win]
-    - r-extrafont                # [not win]
-    - r-fastmatch                 # [not win]
-    - r-ggplot2 >=2.2.0           # [not win]
-    - r-ggrepel                   # [not win]
+    - r-extrafont
+    - r-fastmatch
+    - r-ggplot2 >=2.2.0
+    - r-ggrepel
     - r-jsonlite                  # [not win]
     # - r-lubridate
-    - r-magrittr                  # [not win]
-    - r-network                   # [not win]
-    - r-proxyc >=0.1.4            # [not win]
-    - r-sna                       # [not win]
+    - r-magrittr
+    - r-network
+    - r-proxyc >=0.1.4
+    - r-sna
     - r-spacyr
-    - r-stopwords                 # [not win]
-    - r-stringi                   # [not win]
-    - r-xml2                      # [not win]
-    - r-yaml                      # [not win]
+    - r-stopwords
+    - r-stringi
+    - r-xml2
+    - r-yaml
 
 test:
   commands:
