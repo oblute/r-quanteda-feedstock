@@ -12,7 +12,7 @@ source:
     - {{ cran_mirror }}/src/contrib/Archive/quanteda/quanteda_{{ version }}.tar.gz
   sha256: de6f34de0b96312d16a64c3f8d56b0662d5c5e2dfe0355ebc46d41b54130d96a
 
-build: 
+build:
   merge_build_host: true  # [win]
   skip: true  # [win32]
   number: 0
@@ -33,7 +33,7 @@ requirements:
     - {{posix}}zip               # [win]
   host:
     - r-base
-    - r-matrix >=1.2             # [not win]
+    - r-matrix >=1.2             
     # - r-rspectra
     - r-rcpp >=0.12.12           # [not win]
     - r-rcpparmadillo >=0.7.600.1.0
@@ -58,7 +58,7 @@ requirements:
   run:
     - r-base
     - {{native}}gcc-libs         # [win]
-    - r-matrix >=1.2            # [not win]
+    - r-matrix >=1.2
     # - r-rspectra
     - r-rcpp >=0.12.12           # [not win]
     - r-rcpparmadillo >=0.7.600.1.0
