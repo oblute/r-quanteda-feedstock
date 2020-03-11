@@ -1,4 +1,4 @@
-gt{% set version = "2.0.0" %}
+{% set version = "2.0.0" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -61,7 +61,7 @@ requirements:
     - r-matrix >=1.2            # [not win]
     # - r-rspectra
     - r-rcpp >=0.12.12           # [not win]
-    - r-rcpparmadillo >=0.7.600.1.0  
+    - r-rcpparmadillo >=0.7.600.1.0
     - r-rcppparallel
     - r-snowballc
     - r-data.table >=1.9.6       # [not win]
