@@ -35,8 +35,8 @@ requirements:
     - r-base
     - r-matrix >=1.2
     # - r-rspectra
-    - r-rcpp         # [not win]
-    - r-rcpparmadillo
+    - r-rcpp >=0.12.12           # [not win]
+    - r-rcpparmadillo >=0.7.600.1.0
     - r-rcppparallel
     - r-snowballc
     - r-data.table >=1.9.6       # [not win]
@@ -48,7 +48,7 @@ requirements:
     # - r-lubridate
     - r-magrittr
     - r-network
-    - r-proxyc >=0.1.4
+    - r-proxyc
     - r-sna
     - r-spacyr
     - r-stopwords
@@ -60,8 +60,8 @@ requirements:
     - {{native}}gcc-libs         # [win]
     - r-matrix >=1.2
     # - r-rspectra
-    - r-rcpp          # [not win]
-    - r-rcpparmadillo
+    - r-rcpp >=0.12.12           # [not win]
+    - r-rcpparmadillo >=0.7.600.1.0
     - r-rcppparallel
     - r-snowballc
     - r-data.table >=1.9.6       # [not win]
@@ -73,7 +73,7 @@ requirements:
     # - r-lubridate
     - r-magrittr
     - r-network
-    - r-proxyc >=0.1.4
+    - r-proxyc
     - r-sna
     - r-spacyr
     - r-stopwords
