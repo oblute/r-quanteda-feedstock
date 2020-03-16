@@ -35,14 +35,14 @@ requirements:
     - r-base
     - r-matrix >=1.2
     # - r-rspectra
-    - r-rcpp           # [not win]
+    - r-rcpp >=0.12.12           # [not win]
     - r-rcpparmadillo >=0.7.600.1.0
     - r-rcppparallel
     - r-snowballc
     - r-data.table >=1.9.6       # [not win]
     - r-extrafont
     - r-fastmatch
-    - r-ggplot2
+    - r-ggplot2 >=2.2.0
     - r-ggrepel
     - r-jsonlite                  # [not win]
     # - r-lubridate
@@ -57,17 +57,17 @@ requirements:
     - r-yaml
   run:
     - r-base
-    - {{native}}gcc-libs         # [win]
+    # - {{native}}gcc-libs         # [win]
     - r-matrix >=1.2
     # - r-rspectra
-    - r-rcpp           # [not win]
+    - r-rcpp >=0.12.12           # [not win]
     - r-rcpparmadillo >=0.7.600.1.0
     - r-rcppparallel
     - r-snowballc
     - r-data.table >=1.9.6       # [not win]
     - r-extrafont
     - r-fastmatch
-    - r-ggplot2
+    - r-ggplot2 >=2.2.0
     - r-ggrepel
     - r-jsonlite                  # [not win]
     # - r-lubridate
