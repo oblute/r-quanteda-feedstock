@@ -33,6 +33,8 @@ requirements:
     - {{posix}}zip               # [win]
   host:
     - r-base
+    - libblas
+    - liblapack
     - r-matrix >=1.2
     # - r-rspectra
     - r-rcpp >=0.12.12           # [not win]
@@ -48,7 +50,7 @@ requirements:
     # - r-lubridate
     - r-magrittr
     - r-network
-    - r-proxyc
+    - r-proxyc >=0.1.4
     - r-sna
     - r-spacyr
     - r-stopwords
@@ -73,7 +75,7 @@ requirements:
     # - r-lubridate
     - r-magrittr
     - r-network
-    - r-proxyc
+    - r-proxyc >=0.1.4
     - r-sna
     - r-spacyr
     - r-stopwords
