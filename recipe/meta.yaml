@@ -31,6 +31,10 @@ requirements:
     - {{posix}}sed               # [win]
     - {{posix}}coreutils         # [win]
     - {{posix}}zip               # [win]
+    - {{posix}}grep              # [win]
+    - {{posix}}autoconf
+    - {{posix}}automake-wrapper  # [win]
+    - {{posix}}pkg-config
   host:
     - r-base
     - libblas
