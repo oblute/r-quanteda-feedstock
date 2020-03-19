@@ -20,7 +20,7 @@ build:
     - lib/R/lib/
     - lib/
 
-requirements:
+requirements: 
   build:
     - {{ compiler('c') }}              # [not win]
     - {{ compiler('m2w64_c') }}        # [win]
@@ -37,8 +37,8 @@ requirements:
     - {{posix}}pkg-config
   host:
     - r-base
-    - libblas
-    - liblapack
+    # - libblas
+    # - liblapack
     - r-matrix >=1.2
     # - r-rspectra
     - r-rcpp >=0.12.12           # [not win]
