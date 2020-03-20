@@ -20,21 +20,13 @@ build:
     - lib/R/lib/
     - lib/
 
-requirements: 
+requirements:
   build:
     - {{ compiler('c') }}              # [not win]
     - {{ compiler('m2w64_c') }}        # [win]
     - {{ compiler('cxx') }}            # [not win]
     - {{ compiler('m2w64_cxx') }}      # [win]
-    - {{posix}}filesystem        # [win]
-    - {{posix}}make
-    - {{posix}}sed               # [win]
-    - {{posix}}coreutils         # [win]
-    - {{posix}}zip               # [win]
-    - {{posix}}grep              # [win]
-    - {{posix}}autoconf
-    - {{posix}}automake-wrapper  # [win]
-    - {{posix}}pkg-config
+    - posix                            # [win]
   host:
     - r-base
     # - libblas
