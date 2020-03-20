@@ -29,6 +29,7 @@ requirements:
     - posix                            # [win]
   host:
     - r-base
+    - r-tools
     # - libblas
     # - liblapack
     - r-matrix >=1.2
@@ -56,6 +57,7 @@ requirements:
   run:
     - r-base
     - {{native}}gcc-libs         # [win]
+    - r-tools
     - r-matrix >=1.2
     # - r-rspectra
     - r-rcpp >=0.12.12           # [not win]
